@@ -2,6 +2,7 @@ import readline from "readline";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // https://aistudio.google.com/app/apikey
+// node index.js
 const API_KEY = "AIzaSyBmvEWsFkEnvbUCHcgp119k_jFw7cesffo";
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
